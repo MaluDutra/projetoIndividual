@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto-Apresentação</title>
+    
+    <link rel="shortcut icon" href="img/icon.webp" type="image/x-icon">
+
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="stylesheet" href="static/fonts.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css" />
+
+    <script src="scripts/form.js"></script>
+
+</head>
+<body>
+    <div id="container">
+        <header id="header">
+            <img src="img/flyheart.gif" alt="cute heart">
+            <p>Auto-Apresentação</p>
+            <img src="img/flyheart.gif" alt="cute heart">
+        </header>
+        <nav id="nav">
+            <a href="index.html">HOME</a>&nbsp;&hearts;&nbsp;
+            <a href="frigg.html">Minha gatinha</a>&nbsp;&hearts;&nbsp;
+            <a href="form.html">Formulário</a>
+        </nav>
+        <section id="main">
+
+            <br> <br>
+            <div id="container_introd">
+                <p class="introducao">Aqui embaixo há um formulário sobre <em>&quot;Studio Ghibli&quot;</em>, para você falar um pouco da sua opinião sobre algum filme!</p>
+                <p class="introducao">Caso você não se lembre do nome de algum filme, segue abaixo uma tabela dos filmes mais populares:</p>
+                <table id="filmes_ghibli">
+                    <thead>
+                        <tr>
+                            <th>Nome do filme</th>
+                            <th>Ano de lançamento</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Meu Amigo Totoro</td>
+                            <td>1988</td>
+                        </tr>
+                        <tr>
+                            <td>O Serviço de Entregas da Kiki</td>
+                            <td>1989</td>
+                        </tr>
+                        <tr>
+                            <td>Princesa Mononoke</td>
+                            <td>1997</td>
+                        </tr>
+                        <tr>
+                            <td>A Viagem de Chihiro</td>
+                            <td>2001</td>
+                        </tr>
+                        <tr>
+                            <td>O Castelo Animado</td>
+                            <td>2004</td>
+                        </tr>
+                        <tr>
+                            <td>Ponyo - Uma Amizade que Veio do Mar</td>
+                            <td>2008</td>
+                        </tr>
+                        <tr>
+                            <td>O Menino e a Garça</td>
+                            <td>2023</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3>Formulário</h3>
+            <form id="ghibli_form" action="">
+
+                <label for="nomeFilme" class="nomeFilme">Filme:&nbsp;&nbsp;</label><input type="text" name="nomeFilme" id="nomeFilme" class="nomeFilme" placeholder="Digite aqui o nome do filme...">
+
+                <div class="star-rating">
+                    <div class="star-input">
+                        <input type="radio" name="rating" id="rating-5">
+                        <label for="rating-5" class="fas fa-star"></label>
+                        <input type="radio" name="rating" id="rating-4">
+                        <label for="rating-4" class="fas fa-star"></label>
+                        <input type="radio" name="rating" id="rating-3">
+                        <label for="rating-3" class="fas fa-star"></label>
+                        <input type="radio" name="rating" id="rating-2"><label for="rating-2" class="fas fa-star"></label>
+                        <input type="radio" name="rating" id="rating-1">
+                        <label for="rating-1" class="fas fa-star"></label>
+                    </div>
+                </div>
+
+                <label for="avaliacao" id="label_avaliacao">Escreva sua opinião sobre o filme:</label>
+                <br>
+                <textarea name="avaliacao" id="avaliacao" cols="90" rows="10"></textarea>
+                <br>
+
+                <button type="button" id="submit_ghilbi">
+                    <img src="img/totoro.gif" alt="gatos studio ghibli">
+                </button>
+
+            </form>
+
+        </section>
+        <footer id="footer">
+            <div id="footer_texto">
+                Data: 30/07 <br/>
+                Desenvolvido por: Maria Luiza Dutra<br/>
+                Projeto TWIST 2024.2
+            </div>
+            <div id="footer_gif">
+                <img src="img/cuteheart.gif" alt="coelho fofo" class="coelho">
+            </div>  
+        </footer>
+    </div>
+</body>
+</html>

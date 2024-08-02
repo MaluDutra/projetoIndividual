@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "Open_Sans";
+    src: url(../fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+@font-face {
+    font-family: "Outfit";
+    src: url(../fonts/Outfit/Outfit-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "Playwrite";
+    src: url(../fonts/Playwrite_BE_VLG/PlaywriteBEVLG-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto_Condensed/RobotoCondensed-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "Space_Grotesk";
+    src: url(../fonts/Space_Grotesk/SpaceGrotesk-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "Noto";
+    src: url(../fonts/Noto_Sans_JP/NotoSansJP-VariableFont_wght.ttf);
+}

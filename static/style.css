@@ -1,0 +1,421 @@
+body{
+    background-color: #f5d4c3;
+    margin: 0 auto;
+}
+
+#header{
+    font-family: "Poppins";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #B5838D;
+    /* background-image: linear-gradient(#B5838D, #E5989B); */
+    color: #514563;
+    font-weight: bolder;
+    font-size: x-large;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    letter-spacing: 4px;
+}
+
+#header p{
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+}
+
+@keyframes texto_vira {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(4deg); }
+    50% { transform: rotate(0deg); }
+    75% { transform: rotate(-4deg); }
+    100% { transform: rotate(0deg); }
+}
+
+#header p:hover{
+    animation: texto_vira 0.3s;
+    animation-iteration-count: infinite;
+}
+
+#nav{
+    font-family: "Outfit";
+    text-align: center;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    background-color: #E5989B;
+    /* background-image: linear-gradient(#E5989B, #f5d4c3); */
+}
+
+#nav a{
+    padding-left: 1%;
+    padding-right: 1%;
+    color: darkslateblue;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: larger;
+    letter-spacing: 3px;
+}
+
+#nav a:visited{
+    color: #8f3667;
+}
+
+#nav a:hover{
+    background-color: #f5a7aa;
+    border-radius: 25px;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+#footer{
+    text-align: center;
+    font-family: "Roboto";
+    background-color: #FFB4A2;
+    color: #b85b5e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#footer_texto{
+    display: inline-block;
+    vertical-align: top;
+    font-size: large;
+    font-weight: bolder;
+    line-height: 2;
+}
+
+#footer_gif{
+    width: 12%;
+}
+
+img.coelho{
+    width: 70%;
+    margin-top: -9%;
+}
+
+@keyframes balanca {
+    0% { transform: rotate(0deg); }
+    25% { transform: translate(2px, 2px) rotate(16deg); }
+    50% { transform: rotate(0deg); }
+    75% { transform: translate(-2px, -2px) rotate(-16deg); }
+    100% { transform: rotate(0deg); }
+}
+
+img.coelho:hover{
+    animation: balanca 0.8s;
+    animation-iteration-count: infinite;
+}
+
+*[src*="flyheart"]{
+    width: 4%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+h3{
+    text-align: center;
+    font-family: "Space_Grotesk";
+    border-bottom: 4px solid #ffe1d2;
+    font-size: xx-large;
+    color:#b85b5e;
+    margin-top: 2%;
+    padding-bottom: 0.6%;
+    letter-spacing: 4px;
+}
+
+h3:hover{
+    text-shadow: 2px 2px 10px #f56855;
+}
+
+.introducao{
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: larger;
+}
+
+#container_introd{
+    padding-top: 1%;
+    padding-bottom: 3%;
+}
+
+.lista_introd{
+    list-style-type: "💗  ";
+    text-align: center;
+    list-style-position: inside;
+    padding-top: 0.4%;
+    padding-bottom: 4%;
+    margin-left: -3%;
+}
+
+.lista_introd li{
+    padding: 1%;
+    font-family: "Open_Sans";
+    font-size: large;
+}
+
+.lista_introd li:hover{
+    font-size: larger;
+    font-weight: 500;
+}
+
+#texto_lista{
+    text-align: center;
+}
+
+li [href*="frigg"]{
+    color: #514563;
+    font-family: "Playwrite";
+    font-weight: bolder;
+    font-size: x-large;
+    text-decoration: none;
+}
+
+li [href*="frigg"]:hover{
+    text-shadow: 3px 3px 5px rgb(255, 248, 226);
+    text-shadow: -3px -3px 5px rgb(255, 248, 226);
+    text-shadow: 0 0 5px #ffffff;
+}
+
+li [href$="studioghibli/"]{
+    font-family: "Noto";
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 900;
+    color: #22a0c7;
+    font-size: larger;
+}
+
+#intro_frigg{
+    display: flex;
+    justify-content: center;
+}
+
+#intro_frigg img{
+    width: 20%;
+    margin-left: 1%;
+    margin-right: 1%;
+    border: 0px solid;
+    border-radius: 25px;
+}
+
+#intro_frigg img:hover{
+    box-shadow: 2px 2px 10px grey;
+    transform: scale(1.1,1.1);
+}
+
+figure.centro{
+    text-align: center;
+}
+
+figure.centro figcaption{
+    font-family: "Noto";
+    font-size: medium;
+    padding-bottom: 3%;
+}
+
+figure.centro img{
+    margin-top: 2%;
+    padding: 0.3%;
+    border-radius: 25px;
+    border: 7px solid #dd8d90;
+}
+
+@keyframes frigg_move {
+    0% { transform: scale(1.1,1.1); }
+    15% { transform: scale(1.05,1.05);}
+    25% { transform: scale(1,1); }
+    40% { transform: scale(0.95,0.95);}
+    50% { transform: scale(0.9,0.9); }
+    65% { transform: scale(0.95,0.95);}
+    75% { transform: scale(1,1); }
+    90% { transform: scale(1.05,1.05);}
+    100% { transform: scale(1.1,1.1); }
+}
+
+figure.centro img:hover{
+    border: 7px solid #cc7feb;
+    animation: frigg_move 0.4s;
+    animation-iteration-count: infinite;
+}
+
+p [href*="frigg"]{
+    text-decoration: none;
+    color: #514563;
+    font-weight: bold;
+}
+
+#video_frigg{
+    border: 0px;
+    border-radius: 40px;
+    margin:0 auto;
+    display: block;
+}
+
+#filmes_ghibli{
+    border-collapse: collapse;
+    /* border: 2px solid #b38d97; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.5%;
+}
+
+#filmes_ghibli td{
+    text-align: center;
+    padding: 4%;
+    font-family: "Roboto";
+    font-weight: 450;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+#filmes_ghibli tr{
+    /* border: 2px solid #d5aca9; */
+    border-collapse: collapse;
+    background-color: #f5e4cf;
+    color: #39424b;
+}
+
+#filmes_ghibli tbody tr:hover{
+    background-color: #f8bbb8;
+    transform: scale(1.1,1.1);
+}
+
+#filmes_ghibli th{
+    /* border: 2px solid #b38d97; */
+    border-collapse: collapse;
+    text-align: center;
+    padding: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: "Outfit";
+    font-size: large;
+    background-color: #b38d97;
+}
+
+#filmes_ghibli th:hover{
+    text-shadow: 0px 0px 3px #c2ae95;
+}
+
+#filmes_ghibli th:first-of-type{
+    border-top-left-radius: 10px;
+}
+
+#filmes_ghibli th:last-of-type{
+    border-top-right-radius: 10px;
+}
+
+#filmes_ghibli tr:last-of-type td:first-of-type{
+    border-bottom-left-radius: 10px;
+}
+
+#filmes_ghibli tr:last-of-type td:last-of-type{
+    border-bottom-right-radius: 10px;
+}
+
+#ghibli_form{
+    text-align: center;
+}
+
+.nomeFilme{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    width: 35%;
+    padding-bottom: 0.5%;
+    padding-top: 0.5%;
+}
+
+.star-rating input {
+    display: none;
+}
+  
+.star-rating {
+    margin: 50px auto;
+    display: table;
+    width: 350px;
+}
+  
+.star-rating label {
+    padding: 10px;
+    float: right;
+    font-size: 44px;
+    color: #eee;
+}
+  
+.star-rating input:not(:checked)~label:hover,
+.star-rating input:not(:checked)~label:hover~label {
+    color: #ffc107;
+}
+
+.star-rating input:checked ~label:before{
+    color: #ffc107;
+}
+
+#label_avaliacao{
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 2%;
+    font-size: large;
+}
+
+#avaliacao{
+    margin-bottom: 3%;
+    font-size: large;
+    line-height: 25px;
+    padding: 1%;
+}
+
+#submit_ghilbi{
+    width: 50%;
+    margin-bottom: 4%;
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    background-color: inherit;
+}
+
+#submit_ghilbi img{
+    width: 20%;
+    border-radius: 30px;
+}
+
+#submit_ghilbi img:hover{
+    transform: scale(1.1,1.1);
+    filter: brightness(80%);
+    border: 2px;
+}
+
+#submit_ghilbi img:active{
+    transform: scale(1.1,1.1);
+    filter: brightness(60%);
+    transform: translateY(2px);
+}
+
+#another_cat{
+    margin-top: -2%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+@keyframes shake {
+    0% { transform: rotate(8deg); }
+    10% { transform: rotate(12deg); }
+    20% { transform: rotate(8deg); }
+    30% { transform: rotate(4deg); }
+    40% { transform: rotate(0deg); }
+    50% { transform: rotate(-4deg); }
+    60% { transform: rotate(-8deg); }
+    70% { transform: rotate(-12deg); }
+    80% { transform: rotate(-8deg); }
+    90% { transform: rotate(-4deg); }
+    100% { transform: rotate(0deg); }
+}
+
+#another_cat img{
+    width: 10%;
+}
+
+#another_cat img:hover{
+    animation: shake 1s;
+    animation-iteration-count: infinite;
+}
